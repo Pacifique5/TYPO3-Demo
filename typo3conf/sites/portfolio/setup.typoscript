@@ -2,6 +2,24 @@
 
 page = PAGE
 page {
+    # Navigation Bar
+    5 = TEXT
+    5.value (
+        <nav style="background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); padding: 20px 0; position: sticky; top: 0; z-index: 1000; box-shadow: 0 5px 20px rgba(0,0,0,0.3);">
+            <div style="max-width: 1400px; margin: 0 auto; padding: 0 40px; display: flex; justify-content: space-between; align-items: center;">
+                <a href="/Sites/Portfolio/" style="font-size: 1.8rem; font-weight: bold; background: linear-gradient(135deg, #00d4ff 0%, #00f2fe 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; text-decoration: none;">Mugisha Pacifique</a>
+                <div style="display: flex; gap: 35px; align-items: center;">
+                    <a href="/Sites/Portfolio/" style="color: #b8b8d1; text-decoration: none; font-size: 1.1rem; font-weight: 500; transition: all 0.3s; position: relative;" onmouseover="this.style.color='#00d4ff'" onmouseout="this.style.color='#b8b8d1'">Home</a>
+                    <a href="/Sites/Portfolio/about" style="color: #b8b8d1; text-decoration: none; font-size: 1.1rem; font-weight: 500; transition: all 0.3s;" onmouseover="this.style.color='#00d4ff'" onmouseout="this.style.color='#b8b8d1'">About</a>
+                    <a href="/Sites/Portfolio/projects" style="color: #b8b8d1; text-decoration: none; font-size: 1.1rem; font-weight: 500; transition: all 0.3s;" onmouseover="this.style.color='#00d4ff'" onmouseout="this.style.color='#b8b8d1'">Projects</a>
+                    <a href="/Sites/Portfolio/skills" style="color: #b8b8d1; text-decoration: none; font-size: 1.1rem; font-weight: 500; transition: all 0.3s;" onmouseover="this.style.color='#00d4ff'" onmouseout="this.style.color='#b8b8d1'">Skills</a>
+                    <a href="/Sites/Portfolio/experience" style="color: #b8b8d1; text-decoration: none; font-size: 1.1rem; font-weight: 500; transition: all 0.3s;" onmouseover="this.style.color='#00d4ff'" onmouseout="this.style.color='#b8b8d1'">Experience</a>
+                    <a href="/Sites/Portfolio/contact" style="background: linear-gradient(135deg, #00d4ff 0%, #00f2fe 100%); color: #1a1a2e; padding: 12px 28px; border-radius: 8px; text-decoration: none; font-size: 1.1rem; font-weight: bold; transition: all 0.3s; box-shadow: 0 5px 15px rgba(0, 212, 255, 0.3);" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 8px 20px rgba(0, 212, 255, 0.4)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 5px 15px rgba(0, 212, 255, 0.3)'">Contact</a>
+                </div>
+            </div>
+        </nav>
+    )
+    
     10 = CONTENT
     10 {
         table = tt_content
