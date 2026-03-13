@@ -59,9 +59,6 @@ return [
         'sys_note' => [
             'packagePath' => 'typo3/sysext/sys_note/',
         ],
-        'adminpanel' => [
-            'packagePath' => 'typo3/sysext/adminpanel/',
-        ],
         'backend' => [
             'packagePath' => 'typo3/sysext/backend/',
         ],

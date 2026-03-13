@@ -1,0 +1,15 @@
+base: 'http://localhost:8081/Sites/Portfolio/'
+rootPageId: 9
+websiteTitle: 'Mugisha Pacifique - Portfolio'
+languages:
+  -
+    title: English
+    enabled: true
+    languageId: 0
+    base: /
+    locale: en_US.UTF-8
+    navigationTitle: English
+    flag: us
+dependencies:
+  - typo3/cms-fluid-styled-content
+  - typo3/theme-camino
