@@ -1,0 +1,3 @@
+<?php
+return unserialize('a:1:{s:13:"flatConstants";a:12:{s:14:"dependencies.1";s:18:"typo3/theme-camino";s:14:"dependencies.0";s:30:"typo3/cms-fluid-styled-content";s:16:"languages.0.flag";s:2:"us";s:27:"languages.0.navigationTitle";s:7:"English";s:18:"languages.0.locale";s:11:"en_US.UTF-8";s:16:"languages.0.base";s:1:"/";s:22:"languages.0.languageId";s:1:"0";s:19:"languages.0.enabled";s:1:"1";s:17:"languages.0.title";s:7:"English";s:12:"websiteTitle";s:29:"Mugisha Pacifique - Portfolio";s:10:"rootPageId";s:1:"9";s:4:"base";s:38:"http://localhost:8081/Sites/Portfolio/";}}');
+#
